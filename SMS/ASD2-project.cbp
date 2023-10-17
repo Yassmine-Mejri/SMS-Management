@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ASD2-project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ASD2-project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ASD2-project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="CONTPRIMELT.h" />
+		<Unit filename="CONTPRIMLST.h" />
+		<Unit filename="CONTSDD.h" />
+		<Unit filename="ELTCONT.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ELTCONT.h" />
+		<Unit filename="ELTMSG.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ELTMSG.h" />
+		<Unit filename="ELTSMS.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ELTSMS.h" />
+		<Unit filename="LSTCONT.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LSTCONT.h" />
+		<Unit filename="LSTMSG.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LSTMSG.h" />
+		<Unit filename="LSTSMS.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LSTSMS.h" />
+		<Unit filename="MSGPRIMELT.h" />
+		<Unit filename="MSGPRIMLST.h" />
+		<Unit filename="MSGSDD.h" />
+		<Unit filename="SMSPRIMELT.h" />
+		<Unit filename="SMSPRIMLST.h" />
+		<Unit filename="SMSSDD.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
